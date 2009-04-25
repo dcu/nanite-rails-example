@@ -1,0 +1,11 @@
+<html>
+  <meta>
+    <%= javascript_include_tag :defaults %>
+    <%= javascript_include_tag "jobs" %>
+    <%= orbited_javascript %>
+    <%= stomp_connect('a_client_id', :js => :jquery) %>
+  </meta>
+  <body>
+    <%= yield %>
+  </body>
+</html>

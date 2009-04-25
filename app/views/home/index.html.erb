@@ -1,0 +1,9 @@
+
+<% form_tag "#", :class => "runJobForm" do %>
+  <%= text_area_tag "code", "", :style => "width: 100%; height: 200px" %>
+  <br/>
+  <%= submit_tag "Run code" %>
+<% end %>
+
+<div id="results">
+</div>

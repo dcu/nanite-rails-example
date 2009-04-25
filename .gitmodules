@@ -1,0 +1,3 @@
+[submodule "vendor/gems/nanite-0.4.0"]
+	path = vendor/gems/nanite-0.4.0
+	url = git://github.com/ezmobius/nanite.git
